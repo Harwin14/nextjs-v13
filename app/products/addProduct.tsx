@@ -39,7 +39,7 @@ export default function AddProduct() {
             <button className="btn btn-primary" onClick={handleChange}>Add New</button>
             <input type="checkbox" checked={modal} onChange={handleChange} className="modal-toggle" />
 
-            <div className="modal">
+            <div className="modal"> 
                 <div className="modal-box"> 
                     <h3 className="font-bold text-lg">Add New Product</h3>
                     <form onSubmit={handleSubmit}>
