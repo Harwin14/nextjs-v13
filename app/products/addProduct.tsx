@@ -32,7 +32,7 @@ export default function AddProduct() {
     function handleChange() {
         setModal(!modal)
     }
-
+ 
     return (
         <div>
 
@@ -40,7 +40,7 @@ export default function AddProduct() {
             <input type="checkbox" checked={modal} onChange={handleChange} className="modal-toggle" />
 
             <div className="modal">
-                <div className="modal-box">
+                <div className="modal-box"> 
                     <h3 className="font-bold text-lg">Add New Product</h3>
                     <form onSubmit={handleSubmit}>
                         <div className="form-control">
